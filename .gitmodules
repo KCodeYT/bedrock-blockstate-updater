@@ -1,0 +1,3 @@
+[submodule "src/main/resources/BedrockBlockUpgradeSchema"]
+	path = src/main/resources/BedrockBlockUpgradeSchema
+	url = https://github.com/pmmp/BedrockBlockUpgradeSchema.git
