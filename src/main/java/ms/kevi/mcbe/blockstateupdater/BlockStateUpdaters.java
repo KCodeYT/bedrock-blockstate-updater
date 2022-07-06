@@ -44,22 +44,7 @@ public class BlockStateUpdaters {
     static {
         try {
             UPDATERS = Arrays.asList(
-                    createLegacy(),
-                    create("0001_1.9.0_to_1.10.0.json"),
-                    create("0011_1.10.0_to_1.12.0.json"),
-                    create("0021_1.12.0_to_1.13.0.json"),
-                    create("0031_1.13.0_to_1.14.0.json"),
-                    create("0041_1.14.0_to_1.16.0.57_beta.json"),
-                    create("0051_1.16.0.57_beta_to_1.16.0.59_beta.json"),
-                    create("0061_1.16.0.59_beta_to_1.16.0.68_beta.json"),
-                    create("0071_1.16.0_to_1.16.100.json"),
-                    create("0081_1.16.200_to_1.16.210.json"),
-                    create("0091_1.17.10_to_1.17.30.json"),
-                    create("0101_1.17.30_to_1.17.40.json"),
-                    create("0111_1.18.0_to_1.18.10.json"),
-                    create("0121_1.18.10_to_1.18.20.27_beta.json"),
-                    create("0131_1.18.20.27_beta_to_1.18.30.json"),
-                    create("0141_1.18.30_to_1.19.0.34_beta.json")
+                    create("0001_1.9.0_to_1.10.0.json")
             );
         } catch(IOException e) {
             throw new RuntimeException("Could not create updaters", e);
