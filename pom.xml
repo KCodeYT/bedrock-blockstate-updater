@@ -6,7 +6,7 @@
 
     <groupId>ms.kevi</groupId>
     <artifactId>bedrock-blockstate-updater</artifactId>
-    <version>1.19.0.34_beta</version>
+    <version>1.18.20.27_beta</version>
 
     <properties>
         <maven.compiler.release>17</maven.compiler.release>

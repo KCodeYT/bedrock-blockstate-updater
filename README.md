@@ -45,5 +45,3 @@ NbtMap updatedBlockState = BlockStateUpdaters.update(NbtMap.builder().
 - 1.17.40
 - 1.18.10
 - 1.18.20.27_beta
-- 1.18.30
-- 1.19.0.34_beta
