@@ -58,8 +58,7 @@ public class BlockStateUpdaters {
                     create("0101_1.17.30_to_1.17.40.json"),
                     create("0111_1.18.0_to_1.18.10.json"),
                     create("0121_1.18.10_to_1.18.20.27_beta.json"),
-                    create("0131_1.18.20.27_beta_to_1.18.30.json"),
-                    create("0141_1.18.30_to_1.19.0.34_beta.json")
+                    create("0131_1.18.20.27_beta_to_1.18.30.json")
             );
         } catch(IOException e) {
             throw new RuntimeException("Could not create updaters", e);
